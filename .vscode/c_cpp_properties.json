@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jyh/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/jyh/catkin_ws/src/artificial_intelligent_2023/include/**",
+        "/home/jyh/catkin_ws/src/Azure_Kinect_ROS_Driver/include/**",
+        "/home/jyh/catkin_ws/src/depth_to_pcd/include/**",
+        "/home/jyh/catkin_ws/src/perf_tutorials/include/**",
+        "/home/jyh/catkin_ws/src/ransac_comparison/include/**",
+        "/home/jyh/catkin_ws/src/dnn_experiment/ros_unet/include/**",
+        "/home/jyh/catkin_ws/src/unld-pilot-robot-ros/unld_msgs/include/**",
+        "/home/jyh/catkin_ws/src/unld-pilot-robot-ros/unld_object_detection/include/**",
+        "/home/jyh/catkin_ws/src/unld-pilot-robot-ros/unld_task_planner/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
