@@ -1,0 +1,10 @@
+<launch>
+    <arg name="tilt" default="true"/>
+    <arg name="sensor_model" default="k4a"/>
+
+    <rosparam command="load" file="$(find obb_evaluation)/config/calib_info_for_tf_$(arg sensor_model).yaml"/>
+    <node pkg="unld_cam_driver" type="cam_extrinsic_publisher.py" name="cam_extrinsic_publisher" output="screen">
+        <param name="tilt" type="bool" value="$(arg tilt)"/>
+        <param name="sensor_model" type="string" value="$(arg sensor_model)"/>
+    </node>
+</launch>
