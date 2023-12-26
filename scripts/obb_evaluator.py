@@ -14,7 +14,6 @@ class obb_evaluator():
     def obb_cb(self,msg):
         self.obb_msg = msg
         self.obb_msg_ready = True  
-        print("!!")
 
         anns = {}
         anns['folder'] = "pointclouds"
